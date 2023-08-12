@@ -1,0 +1,41 @@
+ .Top{
+    background-color: #12997C;
+    display: flex;
+    height: 1vh;
+    justify-content: space-between;
+    width:50%;
+   padding: 10px 10px;
+ 
+    font-weight: bolder;}
+
+ 
+ .Logo{
+    font-size:2vw; 
+    color: white;
+ height: fit-content;
+    font-weight: bolder;
+ }
+ .Top button{ color:transparent
+
+ }
+ 
+ @media (max-width:600px){
+ 
+    .Top{
+        background-color: #12997C;
+        display: flex;
+        height: 10vh;
+        justify-content: space-between;
+        width:100%;
+        padding: 10px 10px;
+     }
+
+
+     .Logo{
+        font-size:4vw; 
+        color: white;
+     height: fit-content;
+        font-weight: bolder;
+     }
+     
+ }

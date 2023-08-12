@@ -1,0 +1,41 @@
+.Nav{ width:50%;
+    background-color:#12997c;
+    color:white;
+    font-size:1.5vw;
+    display: flex;
+    justify-content: flex-start;
+ padding: 3vw 1vw 1px 1vw;
+gap:70px;
+
+}
+
+.Top_Nav:hover{  
+    text-decoration: underline;
+   
+   transform: scale3d(0);
+   transform-origin: top Right;
+   transition: 0.5s;
+   }
+
+
+@media (max-width:600px){
+  .Nav { width:100%;
+    
+    background-color:#12997C;
+    color:rgb(255, 255, 255);
+    font-size:4vw;
+    display: flex;
+    justify-content: space-between;
+    
+    padding: 4vw 8vw 4px 8vw;
+}
+
+.Top_Nav:hover{  
+ text-decoration: underline;
+
+transform: scale3d(0);
+transform-origin: top Right;
+transition: 0.5s;
+}
+
+}
